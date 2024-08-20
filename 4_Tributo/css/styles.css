@@ -1,0 +1,81 @@
+html{
+    font-family: Arial;
+    /*background-image: url(../img/oasis-169279907.jpg);*/
+    background-color: beige;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #DDD;
+    position: relative;
+    margin: 50px auto;
+    /* Deixar os elementos centralizados */
+    padding: 20px 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* header */
+
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 50px;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+/* Imagem principal */
+.featured-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Biografia */
+
+.biography-container{
+    padding: 25px 0px;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.quotes-container {
+    background-color: #DDD;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+/* Curiosidades */
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li{
+    height: 30px;
+}
+
+/* Imagem Bold */
+
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
