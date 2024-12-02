@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: georgia;
+    background-color: #EEE;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    transition: 0.455;
+}
+
+a:hover {
+    color: #40b0f6;
+}
+
+/* Header - Nav Bar */
+
+#navbar {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #ddd;
+}
+
+#navbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+/* main */
+
+.container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+}
+
+#posts-container {
+    flex: 3 1 0;
+}
+
+.post {
+    margin-bottom: 2.5rem;
+}
+
+.post img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.tittle,
+.description,
+.author {
+    margin-bottom: 1rem;
+}
+
+.tittle {
+    font-size: 2rem;
+}
+
+.author {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Side bar */
+
+#sidebar {
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags {
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4,
+#categories h4,
+#tags h4{
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form {
+    display: flex;
+}
+
+#search-bar input {
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+}
+
+#search-bar input[type="submit"] {
+    background-color: #40b0f6;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#categories li {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+#tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+#tags-container a {
+    background-color: #CCC;
+    padding: .5rem;
+    border-radius: 0.3rem;
+}
+
+/* Footer */
+
+#footer {
+    border-top: 2px solid #ccc;
+    padding: 3rem;
+    text-align: center;
+}
+
+#footer h2,
+#footer p {
+    margin-bottom: 1rem;
+}
+
+/* Responsivo */
+@media(max-width: 450px){
+    .container {
+        flex-wrap: wrap;
+    }
+}
